@@ -7,16 +7,3 @@ function toggleMenu() {
   menu.classList.toggle('open');
   icon.classList.toggle('open');
 }
-
-function animalStartsWithA(animal) {
-  return animal.toLowerCase().startsWith('a');
-}
-
-console.log(animalStartsWithA('Antelope')); // true
-console.log(animalStartsWithA('Bear')); // false
-
-
-
-const test = 1 2 3 4; 
-const hello = console.log('he llo'   )
-
