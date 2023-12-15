@@ -1,0 +1,12 @@
+/* This is for the mobile nav essentially.
+meaning that when the pixels are less than 1200px
+it will show the hamburger menu, on mobile essentially */
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
