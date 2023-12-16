@@ -2,13 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-.circular {
-  border-radius: 45%; /* This makes the edges round */
-  width: 500px; /* Adjust the width as needed */
-  height: 500px; /* Adjust the height as needed */
-  object-fit: conver; /* This is to maintain the aspect ratio */
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -174,6 +167,11 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+}
+
+.circular {
+  border-radius: 45%; /* This makes the edges round */
+  object-fit: cover; /* This is to maintain the aspect ratio */
 }
 
 .section__pic-container {
